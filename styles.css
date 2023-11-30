@@ -56,6 +56,32 @@ table {
 
 /* Header */
 
+.nav_bar {
+    display: flex;
+    align-items: flex-end;
+    background-color: white;
+    overflow: hidden;
+    position: absolute;
+    margin: 20px auto;
+    top: 0;
+
+
+}
+
+.nav_bar li{
+    display: flex;
+    justify-content: flex-end;
+    float: left;
+    text-align: center;
+    padding: 14px;
+    margin-left: 10px;
+    
+}
+
+.valuation {
+    background-color: rgb(135, 206, 135);
+    
+}
 
 /* Hero */
 
